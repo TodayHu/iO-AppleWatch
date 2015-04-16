@@ -1,0 +1,13 @@
+PODS:
+  - KissXML (5.0)
+  - UIImage+BlurredFrame (0.0.4)
+
+DEPENDENCIES:
+  - KissXML
+  - UIImage+BlurredFrame
+
+SPEC CHECKSUMS:
+  KissXML: ce643413d618ad69886d0d43c3792b7dedfe476e
+  UIImage+BlurredFrame: ad2f7195c6947ea3117c7d202f75a51958d5061a
+
+COCOAPODS: 0.36.3

@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6751" systemVersion="14D131" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController">
+                    <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="0.0"/>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="220" y="345"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="AEw-b0-oYE">
+            <objects>
+                <notificationController id="YCC-NB-fut">
+                    <items>
+                        <group width="1" height="2" alignment="left" id="1ek-Eh-a9W"/>
+                        <group width="1" widthAdjustment="-8" alignment="left" id="lre-an-Fzi">
+                            <items>
+                                <label width="1" widthAdjustment="-8" alignment="right" text="Alert Label" numberOfLines="10" id="IdU-wH-bcW">
+                                    <color key="textColor" red="0.13333333333333333" green="0.13333333333333333" blue="0.13333333333333333" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </label>
+                            </items>
+                        </group>
+                        <group width="1" height="4" alignment="left" id="YfL-EX-D4l"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" identifier="myCategory" wantsSashBlur="YES" id="JfB-70-Muf">
+                        <color key="titleColor" red="0.13333333333333333" green="0.13333333333333333" blue="0.13333333333333333" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="sashColor" red="0.73333333333333328" green="0.73333333333333328" blue="0.73333333333333328" alpha="0.75" colorSpace="custom" customColorSpace="sRGB"/>
+                    </notificationCategory>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="IdU-wH-bcW" id="JKC-fr-R95"/>
+                        <segue destination="4sK-HA-Art" kind="relationship" relationship="dynamicNotificationInterface" id="kXh-Jw-8B1"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="220" y="643"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="zLJ-ll-sfG">
+            <objects>
+                <notificationController id="Xca-Dv-XVs">
+                    <items>
+                        <group width="1" height="2" alignment="left" id="Uz0-v4-g0w"/>
+                        <group width="1" widthAdjustment="-8" alignment="left" id="eiI-y8-7YM">
+                            <items>
+                                <label width="1" widthAdjustment="-8" alignment="right" text="Alert Label" id="UTK-dC-PvH">
+                                    <color key="textColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </label>
+                            </items>
+                        </group>
+                        <group width="1" height="4" alignment="left" id="lek-rk-Fsp"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" identifier="msgPicture" id="h92-QF-D8T"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="UTK-dC-PvH" id="vgL-a6-TSA"/>
+                        <segue destination="vWh-tG-QVn" kind="relationship" relationship="dynamicNotificationInterface" id="IdA-eE-9aT"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="220" y="924"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="7nO-fD-mgt">
+            <objects>
+                <notificationController id="Wb8-o6-gB5">
+                    <items>
+                        <group width="1" height="4" alignment="left" id="A9O-Tw-Qn2"/>
+                        <group width="1" widthAdjustment="-8" alignment="left" id="92b-zr-JkC">
+                            <items>
+                                <label width="1" widthAdjustment="-8" alignment="right" text="Alert Label" id="rJR-XH-Lsm">
+                                    <color key="textColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </label>
+                            </items>
+                        </group>
+                        <group width="1" height="2" alignment="left" id="omC-H6-ryR"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" identifier="msgPictureFull" wantsSashBlur="YES" id="wiq-zt-Ldx">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="sashColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </notificationCategory>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="rJR-XH-Lsm" id="SkO-eL-iSr"/>
+                        <segue destination="EkF-FE-q1n" kind="relationship" relationship="dynamicNotificationInterface" id="WTm-Qu-hqn"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="220" y="1241"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="AsT-xZ-gKl">
+            <objects>
+                <notificationController id="Oxd-Bu-hWV">
+                    <items>
+                        <group width="1" height="2" alignment="left" id="xvR-aq-b03"/>
+                        <group width="1" widthAdjustment="-8" alignment="left" id="2gb-e6-KrI">
+                            <items>
+                                <label width="1" widthAdjustment="-8" alignment="right" text="Alert Label" id="tZq-Vq-VpO">
+                                    <color key="textColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </label>
+                            </items>
+                        </group>
+                        <group width="1" height="2" alignment="left" id="oyv-TZ-DCa"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" identifier="callNotification" wantsSashBlur="YES" id="GWh-xV-Z7r"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="tZq-Vq-VpO" id="JjY-eg-LTj"/>
+                        <segue destination="Pvb-CI-oXK" kind="relationship" relationship="dynamicNotificationInterface" id="4p0-eo-FVI"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="220" y="1582"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="ZPc-GJ-vnh">
+            <objects>
+                <controller id="4sK-HA-Art" customClass="NotificationController">
+                    <items>
+                        <group width="1" height="2" alignment="left" id="dkV-aM-XTM"/>
+                        <group width="1" widthAdjustment="-8" alignment="right" layout="vertical" radius="0.0" id="hgZ-5Z-svb">
+                            <items>
+                                <label width="1" widthAdjustment="-8" alignment="left" alpha="0.79999999999999982" text="YANNIK Z." id="ZnF-Dh-v6P">
+                                    <color key="textColor" red="0.22745098039215686" green="0.33333333333333331" blue="0.4392156862745098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <fontDescription key="font" type="boldSystem" pointSize="14"/>
+                                </label>
+                                <label width="1" widthAdjustment="-8" alignment="left" text="Message" numberOfLines="0" id="Pwf-mO-fQv">
+                                    <color key="textColor" red="0.13333333333333333" green="0.13333333333333333" blue="0.13333333333333333" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <fontDescription key="font" style="UICTFontTextStyleBody"/>
+                                </label>
+                            </items>
+                        </group>
+                        <group width="1" height="4" alignment="left" id="An7-HR-Xop"/>
+                    </items>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="lblMessage" destination="Pwf-mO-fQv" id="5SO-fa-PV3"/>
+                        <outlet property="lblName" destination="ZnF-Dh-v6P" id="IdJ-c5-piW"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="526" y="643"/>
+        </scene>
+        <!--Msg Picture Notification Controller-->
+        <scene sceneID="uyu-QY-91g">
+            <objects>
+                <controller id="vWh-tG-QVn" customClass="msgPictureNotificationController">
+                    <items>
+                        <group width="1" widthAdjustment="-8" alignment="left" id="5lp-lW-hRx">
+                            <items>
+                                <label width="1" widthAdjustment="-8" alignment="right" text="Sender" id="aZT-Fo-ZC4">
+                                    <color key="textColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </label>
+                            </items>
+                        </group>
+                        <group width="1" widthAdjustment="-8" alignment="right" id="kmt-i2-2nN">
+                            <items>
+                                <group width="1" widthAdjustment="-8" alignment="left" radius="6" id="u7k-Ne-prJ">
+                                    <items>
+                                        <imageView width="1" alignment="left" image="bild.jpg" id="S4G-HE-se6"/>
+                                    </items>
+                                </group>
+                            </items>
+                        </group>
+                        <group width="1" height="4" alignment="left" id="TWQ-le-FyW"/>
+                    </items>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <outlet property="imgTextImage" destination="S4G-HE-se6" id="brR-yI-v1P"/>
+                        <outlet property="lblName" destination="aZT-Fo-ZC4" id="Pkf-Xn-iVQ"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="526" y="923.5"/>
+        </scene>
+        <!--Msg Picture Notification Controller Full-->
+        <scene sceneID="FI6-UR-QqF">
+            <objects>
+                <controller contentMode="top" spacing="0.0" id="EkF-FE-q1n" customClass="msgPictureNotificationControllerFull">
+                    <items>
+                        <group width="1" alignment="left" contentMode="scaleAspectFill" layout="vertical" radius="0.0" spacing="0.0" id="JEL-GV-KhL">
+                            <items>
+                                <group width="1" height="80" alignment="left" backgroundImage="loading.png" layout="vertical" radius="0.0" spacing="0.0" id="L03-sd-pjM">
+                                    <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="0.0"/>
+                                </group>
+                                <group width="1" height="25" alignment="left" verticalAlignment="bottom" radius="0.0" spacing="0.0" id="pka-tC-2Iz">
+                                    <items>
+                                        <label width="1" widthAdjustment="-8" height="20" alignment="right" verticalAlignment="center" text="Label" id="h4h-xl-vjy">
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <fontDescription key="font" style="UICTFontTextStyleBody"/>
+                                        </label>
+                                    </items>
+                                    <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="0.0"/>
+                                </group>
+                            </items>
+                            <color key="backgroundColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="0.0"/>
+                        </group>
+                    </items>
+                    <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="0.0"/>
+                    <connections>
+                        <outlet property="grpBackground" destination="JEL-GV-KhL" id="hYb-EO-iaC"/>
+                        <outlet property="grpBackgroundSize" destination="L03-sd-pjM" id="fdU-dU-p97"/>
+                        <outlet property="lblName" destination="h4h-xl-vjy" id="BMi-SG-kHd"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="526" y="1241"/>
+        </scene>
+        <!--Call Notification Controller-->
+        <scene sceneID="Y8z-Kc-Uw3">
+            <objects>
+                <controller id="Pvb-CI-oXK" customClass="CallNotificationController">
+                    <items>
+                        <group width="1" alignment="left" backgroundImage="blurdark.jpeg" contentMode="scaleAspectFill" layout="vertical" radius="0.0" spacing="0.0" id="PbX-lW-6WT">
+                            <items>
+                                <group width="1" height="8" alignment="left" id="oWK-vA-Pbm"/>
+                                <group width="1" widthAdjustment="-8" alignment="right" id="Ted-LV-D0u">
+                                    <items>
+                                        <group width="1" widthAdjustment="-8" alignment="left" id="fE5-FS-h0G">
+                                            <items>
+                                                <group width="40" height="40" alignment="left" id="hGW-Wf-TxN">
+                                                    <items>
+                                                        <imageView width="1" height="1" alignment="left" image="bspquadrat" id="Eea-zk-jGs"/>
+                                                    </items>
+                                                    <variation key="device=watch38mm" radius="20"/>
+                                                    <variation key="device=watch42mm" height="45" radius="22.5" width="45"/>
+                                                </group>
+                                                <group width="40" height="40" alignment="right" alpha="0.5" backgroundImage="ButtonCallWhite.png" id="nE8-Qc-KiP">
+                                                    <variation key="device=watch42mm" height="45" width="45"/>
+                                                </group>
+                                            </items>
+                                        </group>
+                                    </items>
+                                </group>
+                                <group width="1" height="2" alignment="left" id="TsQ-G9-Ftx"/>
+                                <group width="1" alignment="left" layout="vertical" spacing="0.0" id="AmS-j2-BKP">
+                                    <items>
+                                        <label width="1" widthAdjustment="-8" height="13.5" alignment="right" text="Yannik Z." id="Ulg-ur-lph">
+                                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <fontDescription key="font" type="boldSystem" pointSize="16"/>
+                                        </label>
+                                        <label width="1" widthAdjustment="-8" height="13.5" alignment="right" text="ruft an" id="QKy-6h-VaX">
+                                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </label>
+                                    </items>
+                                    <edgeInsets key="margins" left="0.0" right="0.0" top="4" bottom="4"/>
+                                </group>
+                                <group width="1" height="2" alignment="left" id="SaN-VH-fz6"/>
+                            </items>
+                            <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="0.0"/>
+                        </group>
+                    </items>
+                    <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="0.0"/>
+                    <connections>
+                        <outlet property="grpBlurredBackground" destination="PbX-lW-6WT" id="o6s-NQ-6xe"/>
+                        <outlet property="grpCallerAvatarRadius" destination="hGW-Wf-TxN" id="4Hc-Nm-McV"/>
+                        <outlet property="imgCallerAvatar" destination="Eea-zk-jGs" id="2zn-m0-qph"/>
+                        <outlet property="lblCaller" destination="Ulg-ur-lph" id="zvh-Tf-Cd5"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="526" y="1582"/>
+        </scene>
+    </scenes>
+</document>

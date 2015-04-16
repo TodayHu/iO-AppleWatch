@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00A32478D8AAA037F5D635BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 114E8CFB119DE9B459FE413B /* Foundation.framework */; };
+		1B5022634EB9589572223CC5 /* DDXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 438EA34F7CEBAB84836518A8 /* DDXMLDocument.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1E412A79929C50AB73FFA31E /* DDXMLDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 957F641092851EDBC9C137E7 /* DDXMLDocument.h */; };
+		268666ABF973B8A30D72205F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 114E8CFB119DE9B459FE413B /* Foundation.framework */; };
+		2A2DDB48F26B91836C581834 /* DDXML.h in Headers */ = {isa = PBXBuildFile; fileRef = 79DF9846CF6B58621A8B75A8 /* DDXML.h */; };
+		2DFFF0A6CC64857396F7C6C3 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D0E6D732A9310B5520DD58D /* UIImage+ImageEffects.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		48512B2EA436A78B6A31CFE9 /* DDXMLElementAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 13471335DF4E697BEEA38FFC /* DDXMLElementAdditions.h */; };
+		5083400D25706B7D496711B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 114E8CFB119DE9B459FE413B /* Foundation.framework */; };
+		6391FF403650ADAC5D242C9F /* UIImage+BlurredFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 0902B6DBA7B3F25D3107DD6E /* UIImage+BlurredFrame.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6C0CCE538D18562082B61D4E /* DDXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DDE08BFB60A008B7D1F2613 /* DDXMLNode.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		727B9DCDF53620160E5A8B83 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9DD1227C5155CB2DDBAB8A4 /* Pods-dummy.m */; };
+		76037DA691C0AF1360C6DFA4 /* UIImage+ImageEffects.h in Headers */ = {isa = PBXBuildFile; fileRef = E15E02B7C8A3E1DD17712B7F /* UIImage+ImageEffects.h */; };
+		7F98F744C554826A9F96A44E /* DDXMLPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EFF8593DF465F73666FC335 /* DDXMLPrivate.h */; };
+		8853B3CDF4D6A1C8C389D1B0 /* DDXMLElement.h in Headers */ = {isa = PBXBuildFile; fileRef = CCD9EF7353FE6FF4EF0F515C /* DDXMLElement.h */; };
+		97142FFF70D2F265DCF8F1C8 /* NSString+DDXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE4B90E89CCBB0167D74A28 /* NSString+DDXML.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C430790942D617E30F0AA097 /* DDXMLNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C85FF58E60C40347817B18 /* DDXMLNode.h */; };
+		C5329742D15A97EF85FE1B9F /* UIImage+BlurredFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 22506794A053663022F12E61 /* UIImage+BlurredFrame.h */; };
+		D704AA85D3FD173BF291463D /* Pods-KissXML-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDE82BB02C372A375248A7F /* Pods-KissXML-dummy.m */; };
+		E771C00A65439C77448927EF /* NSString+DDXML.h in Headers */ = {isa = PBXBuildFile; fileRef = DDF133100F98345ED7DCF8B1 /* NSString+DDXML.h */; };
+		ED8066BD986893C709CFD023 /* Pods-UIImage+BlurredFrame-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D103B67BA66E9A02228CDB72 /* Pods-UIImage+BlurredFrame-dummy.m */; };
+		F03A262B8325BD0AE64199DD /* DDXMLElementAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1767865E2FFB3EAF2F375718 /* DDXMLElementAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FAFBEB01B933E86A89B5F7A2 /* DDXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 866A88967F9D66C81D66894B /* DDXMLElement.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0AD101BD2DED3E6758FCF5E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F8D9317D4E79658558DF3E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB1E21ECAB8C8A0E51A4B20A;
+			remoteInfo = "Pods-UIImage+BlurredFrame";
+		};
+		C26AB981D874F09E035A1CD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F8D9317D4E79658558DF3E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9098ED541CBEF66CD3F4010D;
+			remoteInfo = "Pods-KissXML";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0031A576506BA126DB88C291 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0902B6DBA7B3F25D3107DD6E /* UIImage+BlurredFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BlurredFrame.m"; sourceTree = "<group>"; };
+		0D1129D97EFB309B7320C8EF /* Pods-KissXML-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KissXML-Private.xcconfig"; sourceTree = "<group>"; };
+		0EFF8593DF465F73666FC335 /* DDXMLPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDXMLPrivate.h; path = KissXML/Private/DDXMLPrivate.h; sourceTree = "<group>"; };
+		114E8CFB119DE9B459FE413B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		13471335DF4E697BEEA38FFC /* DDXMLElementAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDXMLElementAdditions.h; path = KissXML/Additions/DDXMLElementAdditions.h; sourceTree = "<group>"; };
+		1767865E2FFB3EAF2F375718 /* DDXMLElementAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDXMLElementAdditions.m; path = KissXML/Additions/DDXMLElementAdditions.m; sourceTree = "<group>"; };
+		22506794A053663022F12E61 /* UIImage+BlurredFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+BlurredFrame.h"; sourceTree = "<group>"; };
+		237166CC9ED7471091E70C06 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3BE4B90E89CCBB0167D74A28 /* NSString+DDXML.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+DDXML.m"; path = "KissXML/Categories/NSString+DDXML.m"; sourceTree = "<group>"; };
+		3DDE08BFB60A008B7D1F2613 /* DDXMLNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDXMLNode.m; path = KissXML/DDXMLNode.m; sourceTree = "<group>"; };
+		40134B40C80A2711716D502E /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		438EA34F7CEBAB84836518A8 /* DDXMLDocument.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDXMLDocument.m; path = KissXML/DDXMLDocument.m; sourceTree = "<group>"; };
+		44C85FF58E60C40347817B18 /* DDXMLNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDXMLNode.h; path = KissXML/DDXMLNode.h; sourceTree = "<group>"; };
+		5D0E6D732A9310B5520DD58D /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		774F346578A24A7C1314639B /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		79DF9846CF6B58621A8B75A8 /* DDXML.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDXML.h; path = KissXML/DDXML.h; sourceTree = "<group>"; };
+		79E18D3CF6FCAADBA6159ADD /* Pods-UIImage+BlurredFrame-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UIImage+BlurredFrame-prefix.pch"; sourceTree = "<group>"; };
+		866A88967F9D66C81D66894B /* DDXMLElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDXMLElement.m; path = KissXML/DDXMLElement.m; sourceTree = "<group>"; };
+		957F641092851EDBC9C137E7 /* DDXMLDocument.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDXMLDocument.h; path = KissXML/DDXMLDocument.h; sourceTree = "<group>"; };
+		A2AE13E251BA41A82FCA8AB2 /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		A462A37D1557415A3B7097C6 /* libPods-UIImage+BlurredFrame.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UIImage+BlurredFrame.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A48881E21DD864454313474D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		A73A9C5A66025550AC2DEDC8 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		A8BE2A133B53F7B5F1C5DB07 /* Pods-UIImage+BlurredFrame-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIImage+BlurredFrame-Private.xcconfig"; sourceTree = "<group>"; };
+		A9AA1FC425E468DB1B716B3E /* Pods-KissXML-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KissXML-prefix.pch"; sourceTree = "<group>"; };
+		ABDE82BB02C372A375248A7F /* Pods-KissXML-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KissXML-dummy.m"; sourceTree = "<group>"; };
+		AF275D4C799B738EEA4C3220 /* libPods-KissXML.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KissXML.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCD9EF7353FE6FF4EF0F515C /* DDXMLElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDXMLElement.h; path = KissXML/DDXMLElement.h; sourceTree = "<group>"; };
+		CF759E81892AE85296A2EFB1 /* Pods-UIImage+BlurredFrame.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIImage+BlurredFrame.xcconfig"; sourceTree = "<group>"; };
+		D103B67BA66E9A02228CDB72 /* Pods-UIImage+BlurredFrame-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UIImage+BlurredFrame-dummy.m"; sourceTree = "<group>"; };
+		D698442242831AD07C3E74BB /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DDF133100F98345ED7DCF8B1 /* NSString+DDXML.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+DDXML.h"; path = "KissXML/Categories/NSString+DDXML.h"; sourceTree = "<group>"; };
+		E09B8F77A6FE7DF19C6B8968 /* Pods-KissXML.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KissXML.xcconfig"; sourceTree = "<group>"; };
+		E15E02B7C8A3E1DD17712B7F /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		F9DD1227C5155CB2DDBAB8A4 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A021F473C1169C575AE9F63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5083400D25706B7D496711B7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43574B68DF8DD884131AF09B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A32478D8AAA037F5D635BF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFC4E3EA66DD026DF57899B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				268666ABF973B8A30D72205F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FB48448E251BBB69762C671 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D698442242831AD07C3E74BB /* Pods-acknowledgements.markdown */,
+				774F346578A24A7C1314639B /* Pods-acknowledgements.plist */,
+				F9DD1227C5155CB2DDBAB8A4 /* Pods-dummy.m */,
+				A2AE13E251BA41A82FCA8AB2 /* Pods-environment.h */,
+				40134B40C80A2711716D502E /* Pods-resources.sh */,
+				A48881E21DD864454313474D /* Pods.debug.xcconfig */,
+				A73A9C5A66025550AC2DEDC8 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		11C1AE4ADB70329A7F5938A1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0FB48448E251BBB69762C671 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1629965601209E3F3B7C3A7C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED7689F1B2F7FEDC1D297CCE /* KissXML */,
+				623F20298DA094841E0B4670 /* UIImage+BlurredFrame */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2B386DA9F48D1E86DA0DE9E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70BB2A904B6E4F00195D025E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5D3F2227EF44D324629920BD = {
+			isa = PBXGroup;
+			children = (
+				237166CC9ED7471091E70C06 /* Podfile */,
+				2B386DA9F48D1E86DA0DE9E1 /* Frameworks */,
+				1629965601209E3F3B7C3A7C /* Pods */,
+				89CBEDB878872103E9701B82 /* Products */,
+				11C1AE4ADB70329A7F5938A1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		623F20298DA094841E0B4670 /* UIImage+BlurredFrame */ = {
+			isa = PBXGroup;
+			children = (
+				22506794A053663022F12E61 /* UIImage+BlurredFrame.h */,
+				0902B6DBA7B3F25D3107DD6E /* UIImage+BlurredFrame.m */,
+				E15E02B7C8A3E1DD17712B7F /* UIImage+ImageEffects.h */,
+				5D0E6D732A9310B5520DD58D /* UIImage+ImageEffects.m */,
+				F6242E473D5F3986A4B442C9 /* Support Files */,
+			);
+			path = "UIImage+BlurredFrame";
+			sourceTree = "<group>";
+		};
+		70BB2A904B6E4F00195D025E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				114E8CFB119DE9B459FE413B /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7CF1584FBA88CD4853B71CAC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E09B8F77A6FE7DF19C6B8968 /* Pods-KissXML.xcconfig */,
+				0D1129D97EFB309B7320C8EF /* Pods-KissXML-Private.xcconfig */,
+				ABDE82BB02C372A375248A7F /* Pods-KissXML-dummy.m */,
+				A9AA1FC425E468DB1B716B3E /* Pods-KissXML-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-KissXML";
+			sourceTree = "<group>";
+		};
+		89CBEDB878872103E9701B82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0031A576506BA126DB88C291 /* libPods.a */,
+				AF275D4C799B738EEA4C3220 /* libPods-KissXML.a */,
+				A462A37D1557415A3B7097C6 /* libPods-UIImage+BlurredFrame.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED7689F1B2F7FEDC1D297CCE /* KissXML */ = {
+			isa = PBXGroup;
+			children = (
+				79DF9846CF6B58621A8B75A8 /* DDXML.h */,
+				957F641092851EDBC9C137E7 /* DDXMLDocument.h */,
+				438EA34F7CEBAB84836518A8 /* DDXMLDocument.m */,
+				CCD9EF7353FE6FF4EF0F515C /* DDXMLElement.h */,
+				866A88967F9D66C81D66894B /* DDXMLElement.m */,
+				13471335DF4E697BEEA38FFC /* DDXMLElementAdditions.h */,
+				1767865E2FFB3EAF2F375718 /* DDXMLElementAdditions.m */,
+				44C85FF58E60C40347817B18 /* DDXMLNode.h */,
+				3DDE08BFB60A008B7D1F2613 /* DDXMLNode.m */,
+				0EFF8593DF465F73666FC335 /* DDXMLPrivate.h */,
+				DDF133100F98345ED7DCF8B1 /* NSString+DDXML.h */,
+				3BE4B90E89CCBB0167D74A28 /* NSString+DDXML.m */,
+				7CF1584FBA88CD4853B71CAC /* Support Files */,
+			);
+			path = KissXML;
+			sourceTree = "<group>";
+		};
+		F6242E473D5F3986A4B442C9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF759E81892AE85296A2EFB1 /* Pods-UIImage+BlurredFrame.xcconfig */,
+				A8BE2A133B53F7B5F1C5DB07 /* Pods-UIImage+BlurredFrame-Private.xcconfig */,
+				D103B67BA66E9A02228CDB72 /* Pods-UIImage+BlurredFrame-dummy.m */,
+				79E18D3CF6FCAADBA6159ADD /* Pods-UIImage+BlurredFrame-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-UIImage+BlurredFrame";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3D5F013C94B0790D1E1BDB59 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A2DDB48F26B91836C581834 /* DDXML.h in Headers */,
+				1E412A79929C50AB73FFA31E /* DDXMLDocument.h in Headers */,
+				8853B3CDF4D6A1C8C389D1B0 /* DDXMLElement.h in Headers */,
+				48512B2EA436A78B6A31CFE9 /* DDXMLElementAdditions.h in Headers */,
+				C430790942D617E30F0AA097 /* DDXMLNode.h in Headers */,
+				7F98F744C554826A9F96A44E /* DDXMLPrivate.h in Headers */,
+				E771C00A65439C77448927EF /* NSString+DDXML.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47B9067242EEBC79E6B16C61 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5329742D15A97EF85FE1B9F /* UIImage+BlurredFrame.h in Headers */,
+				76037DA691C0AF1360C6DFA4 /* UIImage+ImageEffects.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6DC1B9A5C9892253C99D440E /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0ECA64CE3AF85C84DA9519E /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				D7253D71BC57A5FC2513E810 /* Sources */,
+				0A021F473C1169C575AE9F63 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				340DFE2F5F7D7DD861D1EEAF /* PBXTargetDependency */,
+				5A4C6F008D4CDDCD7066B866 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 0031A576506BA126DB88C291 /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9098ED541CBEF66CD3F4010D /* Pods-KissXML */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D8BF71D3258482E919B3EA0 /* Build configuration list for PBXNativeTarget "Pods-KissXML" */;
+			buildPhases = (
+				0A93659C8FE4A78085946968 /* Sources */,
+				BFC4E3EA66DD026DF57899B9 /* Frameworks */,
+				3D5F013C94B0790D1E1BDB59 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-KissXML";
+			productName = "Pods-KissXML";
+			productReference = AF275D4C799B738EEA4C3220 /* libPods-KissXML.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CB1E21ECAB8C8A0E51A4B20A /* Pods-UIImage+BlurredFrame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F5CE19CDC293E661ED4F9BE /* Build configuration list for PBXNativeTarget "Pods-UIImage+BlurredFrame" */;
+			buildPhases = (
+				36BDD61EB041A4AA9330494C /* Sources */,
+				43574B68DF8DD884131AF09B /* Frameworks */,
+				47B9067242EEBC79E6B16C61 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-UIImage+BlurredFrame";
+			productName = "Pods-UIImage+BlurredFrame";
+			productReference = A462A37D1557415A3B7097C6 /* libPods-UIImage+BlurredFrame.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F8D9317D4E79658558DF3E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 1E7E067E701B1776134E98B4 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5D3F2227EF44D324629920BD;
+			productRefGroup = 89CBEDB878872103E9701B82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6DC1B9A5C9892253C99D440E /* Pods */,
+				9098ED541CBEF66CD3F4010D /* Pods-KissXML */,
+				CB1E21ECAB8C8A0E51A4B20A /* Pods-UIImage+BlurredFrame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A93659C8FE4A78085946968 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B5022634EB9589572223CC5 /* DDXMLDocument.m in Sources */,
+				FAFBEB01B933E86A89B5F7A2 /* DDXMLElement.m in Sources */,
+				F03A262B8325BD0AE64199DD /* DDXMLElementAdditions.m in Sources */,
+				6C0CCE538D18562082B61D4E /* DDXMLNode.m in Sources */,
+				97142FFF70D2F265DCF8F1C8 /* NSString+DDXML.m in Sources */,
+				D704AA85D3FD173BF291463D /* Pods-KissXML-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36BDD61EB041A4AA9330494C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED8066BD986893C709CFD023 /* Pods-UIImage+BlurredFrame-dummy.m in Sources */,
+				6391FF403650ADAC5D242C9F /* UIImage+BlurredFrame.m in Sources */,
+				2DFFF0A6CC64857396F7C6C3 /* UIImage+ImageEffects.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7253D71BC57A5FC2513E810 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				727B9DCDF53620160E5A8B83 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		340DFE2F5F7D7DD861D1EEAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-KissXML";
+			target = 9098ED541CBEF66CD3F4010D /* Pods-KissXML */;
+			targetProxy = C26AB981D874F09E035A1CD3 /* PBXContainerItemProxy */;
+		};
+		5A4C6F008D4CDDCD7066B866 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-UIImage+BlurredFrame";
+			target = CB1E21ECAB8C8A0E51A4B20A /* Pods-UIImage+BlurredFrame */;
+			targetProxy = 0AD101BD2DED3E6758FCF5E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04F9B8E51A386EC3EB258CFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8BE2A133B53F7B5F1C5DB07 /* Pods-UIImage+BlurredFrame-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-UIImage+BlurredFrame/Pods-UIImage+BlurredFrame-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2C5CD82A11BFC8D7958105AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A73A9C5A66025550AC2DEDC8 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		37DBE910222B87889CC80782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D1129D97EFB309B7320C8EF /* Pods-KissXML-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-KissXML/Pods-KissXML-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6119C8A066C8734FE0E79E18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64416CBEBD3AA0C54BF32797 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D1129D97EFB309B7320C8EF /* Pods-KissXML-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-KissXML/Pods-KissXML-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		6F9E74C745D4B6AC4B0FDB52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B26988E95B36A37A0EAC7106 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8BE2A133B53F7B5F1C5DB07 /* Pods-UIImage+BlurredFrame-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-UIImage+BlurredFrame/Pods-UIImage+BlurredFrame-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C6971011D030129EC61C73B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A48881E21DD864454313474D /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E7E067E701B1776134E98B4 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F9E74C745D4B6AC4B0FDB52 /* Debug */,
+				6119C8A066C8734FE0E79E18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F5CE19CDC293E661ED4F9BE /* Build configuration list for PBXNativeTarget "Pods-UIImage+BlurredFrame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F9B8E51A386EC3EB258CFC /* Debug */,
+				B26988E95B36A37A0EAC7106 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D8BF71D3258482E919B3EA0 /* Build configuration list for PBXNativeTarget "Pods-KissXML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37DBE910222B87889CC80782 /* Debug */,
+				64416CBEBD3AA0C54BF32797 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0ECA64CE3AF85C84DA9519E /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6971011D030129EC61C73B6 /* Debug */,
+				2C5CD82A11BFC8D7958105AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F8D9317D4E79658558DF3E8 /* Project object */;
+}
