@@ -57,10 +57,12 @@
 
     NSString * Name = [[[remoteNotification objectForKey:@"aps"]objectForKey:@"alert"]objectForKey:@"sender"];
     NSString * imagePath = [[[remoteNotification objectForKey:@"aps"]objectForKey:@"alert"]objectForKey:@"image"];
+    
     UIImage * callerAvatar = [UIImage imageNamed:@"profilbild"/*imagePath*/];
     UIImage * backgroundImage = callerAvatar;
+    
+    // Set blur for background
     CGFloat radius = 8;
-    //CGFloat saturation = 80;
     CGRect frame = CGRectMake(0, 0, backgroundImage.size.width,backgroundImage.size.height);
     UIColor *tintColor = [UIColor colorWithRed:0 green:0 blue:0 alpha:0.4];
     backgroundImage = [backgroundImage applyBlurWithRadius:radius tintColor:tintColor saturationDeltaFactor:true maskImage:nil/*backgroundImage*/ atFrame:frame];
@@ -72,7 +74,7 @@
     
     [_grpCallerAvatarRadius setCornerRadius:cornerRadius];
     [_grpBlurredBackground setBackgroundImage:backgroundImage];
-    //[_imgCallerAvatar setImage:callerAvatar];
+    [_imgCallerAvatar setImage:callerAvatar];
     [_lblCaller setText:Name];
     completionHandler(WKUserNotificationInterfaceTypeCustom);
 }

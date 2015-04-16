@@ -104,7 +104,7 @@
     NSString * Message = [[[remoteNotification objectForKey:@"aps"]objectForKey:@"alert"]objectForKey:@"body"];
     NSString * imagePath = [[[remoteNotification objectForKey:@"aps"]objectForKey:@"alert"]objectForKey:@"image"];
     
-    
+    /* Test cases */
     UIImage * originalImage = [UIImage imageNamed:@"bspportrait"/*imagePath*/];
     //UIImage * originalImage = [UIImage imageNamed:@"bspquadrat"/*imagePath*/];
     //UIImage * originalImage = [UIImage imageNamed:@"bspfamilie"/*imagePath*/];
@@ -126,11 +126,13 @@
     newImage = [newImage applyLightEffectAtFrame:frame];
     
     NSLog(@"%f,%f,%f, %f",adjustedImageHeight, newImage.size.height, newImage.size.width, cropOffset);
+    
     //set group,image,msg
     [_grpBackground setBackgroundImage:newImage];
     [_grpBackgroundSize setBackgroundImage:NULL];
     [_grpBackgroundSize setHeight:adjustedImageHeight - labelHeight];
     [_lblName setText:Message];
+    
     completionHandler(WKUserNotificationInterfaceTypeCustom);
 }
 

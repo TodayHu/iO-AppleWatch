@@ -272,19 +272,8 @@
 			isa = PBXGroup;
 			children = (
 				3E525EF11AC92D850085DFD0 /* Interface.storyboard */,
-				3EEDC7A81ADE563700124C88 /* loading.png */,
-				3EA4918B1ADEA26F001741E0 /* profilbild.jpg */,
-				3E47EE2F1AD56D2D002C8B25 /* blurprofil.jpeg */,
-				3EB4BC6C1ADBB78300836EDE /* 5k.jpg */,
-				3E47EE371AD5746B002C8B25 /* blurdark.jpeg */,
-				3E47EE311AD56F3C002C8B25 /* Profilbild_Johannes-Klausround.png */,
-				3E47EE2D1AD56CCA002C8B25 /* Profilbild_Johannes-Klaus.jpg */,
-				3EF579521ACD728700A7B6D7 /* bild.jpg */,
-				3EA491871ADE96C0001741E0 /* IconTimelinePlay.pdf */,
-				3E64CA071ADFACC700E63F26 /* ButtonCallWhite.png */,
-				3E64CA051ADFA8CC00E63F26 /* ButtonCall.png */,
 				3E525EF41AC92D860085DFD0 /* Images.xcassets */,
-				3EEDC7AA1ADE58A400124C88 /* testImages */,
+				3E6077FB1ADFD93B00C3CFA6 /* images */,
 				3E525EEF1AC92D850085DFD0 /* Supporting Files */,
 			);
 			path = "test_iO_WatchApp WatchKit App";
@@ -296,6 +285,25 @@
 				3E525EF01AC92D850085DFD0 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3E6077FB1ADFD93B00C3CFA6 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				3EEDC7A81ADE563700124C88 /* loading.png */,
+				3EA4918B1ADEA26F001741E0 /* profilbild.jpg */,
+				3E47EE2F1AD56D2D002C8B25 /* blurprofil.jpeg */,
+				3EB4BC6C1ADBB78300836EDE /* 5k.jpg */,
+				3E47EE371AD5746B002C8B25 /* blurdark.jpeg */,
+				3E47EE311AD56F3C002C8B25 /* Profilbild_Johannes-Klausround.png */,
+				3E47EE2D1AD56CCA002C8B25 /* Profilbild_Johannes-Klaus.jpg */,
+				3EF579521ACD728700A7B6D7 /* bild.jpg */,
+				3EA491871ADE96C0001741E0 /* IconTimelinePlay.pdf */,
+				3E64CA071ADFACC700E63F26 /* ButtonCallWhite.png */,
+				3E64CA051ADFA8CC00E63F26 /* ButtonCall.png */,
+				3EEDC7AA1ADE58A400124C88 /* testImages */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 		3EEDC7AA1ADE58A400124C88 /* testImages */ = {

@@ -51,10 +51,11 @@
 
 
 - (void)didReceiveRemoteNotification:(NSDictionary *)remoteNotification withCompletion:(void (^)(WKUserNotificationInterfaceType))completionHandler {
+    
     NSString * Name = [[[remoteNotification objectForKey:@"aps"]objectForKey:@"alert"]objectForKey:@"sender"];
     NSString * Message = [[[remoteNotification objectForKey:@"aps"]objectForKey:@"alert"]objectForKey:@"body"];
+    
     [_lblName setText:Name];
-    //[_lblName setTextColor:[UIColor magentaColor]];
     [_lblMessage setText:Message];
     
     completionHandler(WKUserNotificationInterfaceTypeCustom);

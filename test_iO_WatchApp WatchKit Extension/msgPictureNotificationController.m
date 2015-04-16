@@ -55,7 +55,7 @@
     UIImage * image = [UIImage imageNamed:imagePath];
     
     [_lblName setText:Message];
-    //[_imgTextImage setImage:image];
+    [_imgTextImage setImage:image];
     completionHandler(WKUserNotificationInterfaceTypeCustom);
 }
 
